@@ -13,6 +13,7 @@ body{
     width: 250px;
     color: white;
     text-align: center;
+    text-decoration: none;
     font-size: 30px;
     line-height: 90px;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -21,6 +22,10 @@ body{
 }
 ul {
     font-size: 20px;
+    padding: 0px 20px 0px 20px;
+}
+li {
+    padding: 0px 20px 0px 20px;
 }
 .container{
     background-image: url(../images/creampaper.png);
@@ -51,6 +56,7 @@ ul {
     font-size: 30px;
     font-weight: bold;
     color: #4aaaa5;
+    min-width: 270px;
 }
 .card-header {
     background-color: white;
@@ -68,4 +74,16 @@ hr{
     font-size: 30px;
     font-weight: bold;
 
+}
+a:hover {
+    text-decoration: none;
+    color: #eeeeee;
+}
+#current-page {
+    color: #4aaaa5;
+    font-weight: 550;
+}
+form {
+    width:600px;
+    color: #666
 }
