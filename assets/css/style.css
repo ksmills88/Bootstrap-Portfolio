@@ -56,8 +56,11 @@ li {
     font-size: 30px;
     font-weight: bold;
     color: #4aaaa5;
-    min-width: 270px;
+    word wrap: none;
+    
 }
+
+
 .card-header {
     background-color: white;
     
